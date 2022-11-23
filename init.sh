@@ -12,3 +12,4 @@ sed -i 's/^ZSH_THEME.*$/ZSH_THEME=\"frisk\"/' ~/.zshrc
 
 #vscode
 wget -O vs.deb  https://code.visualstudio.com/sha/download\?build\=stable\&os\=linux-deb-x64
+sudo dpkg -i vs.deb
