@@ -9,3 +9,6 @@ sudo apt install -y vim git fcitx-googlepinyin zsh
 # oh my zsh
 sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 sed -i 's/^ZSH_THEME.*$/ZSH_THEME=\"frisk\"/' ~/.zshrc
+
+#vscode
+wget -O vs.deb  https://code.visualstudio.com/sha/download\?build\=stable\&os\=linux-deb-x64
