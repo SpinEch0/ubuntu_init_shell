@@ -17,3 +17,8 @@ sudo dpkg -i vs.deb
 # wps
 wget -O wps.deb https://wps-linux-personal.wpscdn.cn/wps/download/ep/Linux2019/11664/wps-office_11.1.0.11664_amd64.deb
 sudo dpkg -i wps.deb
+
+# language zh
+sudo apt-get install -y language-pack-zh*
+sudo locale-gen
+
