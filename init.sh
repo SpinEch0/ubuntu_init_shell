@@ -22,3 +22,5 @@ sudo dpkg -i wps.deb
 sudo apt-get install -y language-pack-zh*
 sudo locale-gen
 
+
+
